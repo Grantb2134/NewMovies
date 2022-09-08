@@ -19,4 +19,4 @@ Welcome to NewMovies! You start on a landing page with movies fetched from TheMo
 ```
 apiKey=PASSWORD;
 ```
-3. Enter `nodemon .\www` to run the app.
+3. Enter `npm start` to run the app.
