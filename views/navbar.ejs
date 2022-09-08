@@ -1,0 +1,25 @@
+<nav class="cm-navbar">
+    <div>
+      <div class="cm-nav-left">
+        <div class="cm-logo">
+          <a class="" href="/">NewMovies</a>
+        </div>
+      </div>
+      <ul class="cm-search">
+        <li>
+            <form action="/search?source=hp" method="post" id="search-form" class="form-inline">
+  
+              <div class="">
+                <select name="cat" class="form-control" id="cat">
+                  <option value="movie">Movie Title</option>
+                  <option value="person">Actor</option>
+                </select>
+              </div>
+                
+                <input type="text" id="movie" placeholder="Search" name="movieSearch" />
+              <input type="submit" class="btn btn-primary cm-button" />
+            </form>
+        </li>      
+      </ul>
+    </div>
+  </nav>
